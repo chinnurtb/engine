@@ -7,11 +7,12 @@
 %%%-------------------------------------------------------------------
 -module(window).
 
--include("misc.hrl").
 
 -include_lib("wx/include/wx.hrl").
 -include_lib("wx/include/gl.hrl").
 -include_lib("wx/include/glu.hrl").
+
+-include("engine.hrl").
 
 -export([gl_frame/1, gl_frame/2, gl_resize/2]).
 

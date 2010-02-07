@@ -8,7 +8,6 @@
 -module(image).
 
 -include_lib("wx/include/wx.hrl").
--include("image.hrl").
 
 -export([loadPNG/1, getRGBA/1, getRGB/1]).
 

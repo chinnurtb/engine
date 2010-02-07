@@ -7,8 +7,7 @@ MODULES = \
 	image \
 	sprite \
 	color \
-	window \
-	falling_bricks
+	window
 
 
 INCLUDES =
